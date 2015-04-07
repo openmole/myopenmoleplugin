@@ -9,6 +9,3 @@ trait Hello {
   def typedWorld(i: Int) = Result(world(i))
 }
 
-
-
-
