@@ -10,7 +10,7 @@ OsgiKeys.exportPackage := Seq("myopenmoleplugin.*")
 
 OsgiKeys.importPackage := Seq("*;resolution:=optional")
 
-OsgiKeys.privatePackage := Seq("!scala.*,*")
+OsgiKeys.privatePackage := Seq("")
 
 scalariformSettings
 
