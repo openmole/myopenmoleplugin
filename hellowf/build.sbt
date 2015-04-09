@@ -8,7 +8,7 @@ osgiSettings
 
 OsgiKeys.exportPackage := Seq("myopenmoleplugin.*")
 
-OsgiKeys.importPackage := Seq("*;resolution:=optional")
+OsgiKeys.importPackage := Seq("*")
 
 OsgiKeys.privatePackage := Seq("")
 
