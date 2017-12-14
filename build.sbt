@@ -6,9 +6,6 @@ scalaVersion := "2.11.8"
 
 enablePlugins(SbtOsgi)
 
-
-//osgiSettings
-
 OsgiKeys.exportPackage := Seq("myopenmoleplugin.*")
 
 OsgiKeys.importPackage := Seq("*;resolution:=optional")
